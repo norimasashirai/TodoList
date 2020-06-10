@@ -38,7 +38,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     @IBAction func tapAddButton(_ sender: Any) {
         
-        let alertController = UIAlertController(title: "ToDo追加", message: "ToDoを入力してください", preferredStyle: UIAlertController.Style.alert)
+        let alertController = UIAlertController(title: "ToDoを追加", message: "ToDoを入力してください", preferredStyle: UIAlertController.Style.alert)
         
         alertController.addTextField(configurationHandler: nil)
         
